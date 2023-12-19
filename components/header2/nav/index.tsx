@@ -6,7 +6,7 @@ import { menuSlide } from "../anim";
 import Link2 from "./Link";
 import Link from "next/link";
 import Curve from "./Curve";
-import Footer from "./Footer";
+
 import { GoArrowRight } from "react-icons/go";
 import { FiArrowUpRight } from "react-icons/fi";
 
@@ -91,7 +91,7 @@ export default function Index() {
             </div>
           </Link>
         </div>
-        <Footer />
+       
       </div>
       <Curve />
     </motion.div>
