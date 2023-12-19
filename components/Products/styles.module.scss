@@ -1,0 +1,27 @@
+.container {
+  display: flex;
+  height: 100vh;
+  align-items: center;
+  justify-content: center;
+}
+
+.projectContainer {
+  position: relative;
+  width: 100%;
+}
+
+.projectContainer div {
+  border-top: 1px solid black;
+  cursor: pointer;
+  position: relative;
+  margin-bottom: -1vw;
+  background-color: white;
+}
+
+.projectContainer div p {
+  margin: 0px;
+
+  padding-left: 10px;
+
+  pointer-events: none;
+}
