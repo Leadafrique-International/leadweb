@@ -55,7 +55,7 @@ export default function Index() {
           onMouseLeave={() => {
             setSelectedIndicator(pathname);
           }}
-          className={`${styles.nav} md:text-[46px] text-[36px]`}
+          className={`${styles.nav} md:text-[46px] text-[30px]`}
         >
           <div className={styles.header}>
             <p className="text-white -mb-14">Menu</p>
