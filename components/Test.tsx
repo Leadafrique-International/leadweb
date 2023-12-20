@@ -26,7 +26,7 @@ function Test() {
   return (
     <div className="bg7">
       <div className="max-w-[1320px] font-font pb-20 md:pt-20 pt-10 text-black px-5 mx-auto">
-        <div className="bg-white md:p-10 p-8 mt-8 cursor-pointer hover:shadow-md hover:shadow-white hover:scale-105 duration-200">
+        <div className="bg-white md:p-10 p-8 mt-8 cursor-pointer ">
           <h1 className="text-3xl font-semibold py-5">Young People</h1>
           <hr />
           <p className="py-5 md:text-[18px] text-[14px]">
@@ -45,7 +45,7 @@ function Test() {
           </h1>
         </div>
 
-        <div className="bg-white md:p-10 p-8 mt-8 cursor-pointer hover:shadow-md hover:shadow-white hover:scale-105 duration-200">
+        <div className="bg-white md:p-10 p-8 mt-8 cursor-pointer ">
           <h1 className="text-3xl font-semibold py-5">Educators</h1>
           <hr />
           <p className="py-5 md:text-[18px] text-[14px]">
@@ -61,7 +61,7 @@ function Test() {
           </h1>
         </div>
 
-        <div className="bg-white md:p-10 p-8 mt-8 hover:shadow-md hover:shadow-white cursor-pointer hover:scale-105 duration-200">
+        <div className="bg-white md:p-10 p-8 mt-8 hover:shadow-md ">
           <h1 className="text-3xl font-semibold py-5">Corporate Executives</h1>
           <hr />
           <p className="py-5 md:text-[18px] text-[14px]">

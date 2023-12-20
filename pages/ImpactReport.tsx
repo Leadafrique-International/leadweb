@@ -7,8 +7,7 @@ import Educators from "@/components/educators";
 function educators() {
   return (
     <div>
-      <Navbar2 />
-      <Menu />
+      
       <Educators />
     </div>
   );

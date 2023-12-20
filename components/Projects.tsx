@@ -4,8 +4,8 @@ import Link from "next/link";
 function Projects() {
   return (
     <div className="h-screen flex w-full justify-center items-center font-font">
-      <div className="font-medium w-full text-[2vw] text-center ">
-        <h1 className="text-left text-[1.5vw] pb-5 px-5"> Our Programs</h1>
+      <div className="font-medium w-full text-[30px] text-center ">
+        <h1 className="text-left text-[1vw] pb-5 px-5"> Our Progrs</h1>
 
         <hr />
         <Link href="">
@@ -45,7 +45,7 @@ function Projects() {
         <hr />
         <Link href="">
           <div>
-            <h1 className="p-5">Corp. Executive</h1>
+            <h1 className="p-5">Corp. Executives</h1>
           </div>
         </Link>
         <hr />

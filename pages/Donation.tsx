@@ -5,7 +5,7 @@ import Image from "next/image";
 function Donation() {
   return (
     <div>
-      <Navbar2 />
+     
       <div className="flex items-center justify-center">
         <Image
           src="/Broucher (3).png"

@@ -37,8 +37,7 @@ function Corporat() {
         <title>Leadafrique International</title>
       </Head>
       <motion.div className="progress-bar" style={{ scaleX }} />
-      <Navbar2 />
-      <Menu />
+     
       <Corporate />
       {showScrollTop && (
         <button

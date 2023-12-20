@@ -38,7 +38,7 @@ const About = () => {
       </Head>
       <motion.div className="progress-bar" style={{ scaleX }} />
 
-      <Menu />
+     
       <AboutUs />
       {showScrollTop && (
         <button

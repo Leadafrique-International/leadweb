@@ -38,8 +38,7 @@ const Future = () => {
         <title>Leadafrique International</title>
       </Head>
       <motion.div className="progress-bar" style={{ scaleX }} />
-      <Navbar2 />
-      <Menu />
+    
 
       <Futures />
       {showScrollTop && (

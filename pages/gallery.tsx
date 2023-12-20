@@ -75,8 +75,7 @@ function Tap() {
         <title>Leadafrique International</title>
       </Head>
       <motion.div className="progress-bar" style={{ scaleX }} />
-      <Navbar2 />
-      <Menu />
+    
       <div className="fade-in" ref={pageRef}>
         <div className="relative">
           <Image

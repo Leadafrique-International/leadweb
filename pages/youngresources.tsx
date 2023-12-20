@@ -37,8 +37,7 @@ function Youngresources() {
         <title>Leadafrique International</title>
       </Head>
       <motion.div className="progress-bar" style={{ scaleX }} />
-      <Navbar2 />
-      <Menu />
+      
       <Youngres />
       {showScrollTop && (
         <button

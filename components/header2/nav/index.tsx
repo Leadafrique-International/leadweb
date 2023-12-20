@@ -24,13 +24,18 @@ const navItems = [
     href: "/programs",
   },
   {
-    title: "Our Blog",
-    href: "/",
+    title: "Blog",
+    href: "https://leadafriueblog.vercel.app/",
   },
   {
     title: "Contact",
     href: "/contact",
   },
+  {
+    title: "Gallery",
+    href: "/gallery",
+  },
+  
 ];
 
 export default function Index() {
@@ -53,7 +58,7 @@ export default function Index() {
           className={`${styles.nav} md:text-[46px] text-[36px]`}
         >
           <div className={styles.header}>
-            <p className="text-white">Navigation Menu</p>
+            <p className="text-white -mb-14">Menu</p>
           </div>
           {navItems.map((data, index) => {
             return (
@@ -69,7 +74,7 @@ export default function Index() {
           <Link href="/quiz">
             <div className="flex items-center gap-1 pt-2">
               <h1 className="md:text-xl text-sm hover:underline duration-150">
-                Take a Intelligence Type Test
+                Take an Intelligence Type Test
               </h1>
               <FiArrowUpRight className="text-xl" />
             </div>

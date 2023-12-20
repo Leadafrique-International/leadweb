@@ -15,27 +15,27 @@ const projects: Project[] = [
   {
     title: "Be Future Ready",
     color: "#F06318",
-    link: "/be-future-ready", // Adjust the link accordingly
+    link: "/future", // Adjust the link accordingly
   },
   {
     title: "Ghana Youth Leadership Academy",
     color: "#DCF018",
-    link: "/ghana-youth-leadership-academy",
+    link: "/gyla",
   },
   {
     title: "Empowering Women In Politics",
     color: "#18f06b",
-    link: "/ghana-youth-leadership-academy",
+    link: "/ewip",
   },
   {
     title: "Young People",
     color: "#18F0E8",
-    link: "/young-people",
+    link: "/youngpeople",
   },
   {
     title: "Parenting",
     color: "#8C0CF0",
-    link: "/parenting",
+    link: "/parents",
   },
   {
     title: "Educators",
@@ -43,9 +43,9 @@ const projects: Project[] = [
     link: "/educators",
   },
   {
-    title: "Corp. Executive",
+    title: "Corp. Executives",
     color: "#F0BA18",
-    link: "/corp-executive",
+    link: "/corporate",
   },
 ];
 
@@ -57,7 +57,7 @@ export default function Home() {
     index: number
   ) => {
     gsap.to(e.currentTarget, {
-      top: "-2vw",
+      top: "-0.5vw",
       backgroundColor: projects[index].color,
       duration: 0.3,
     });
@@ -83,6 +83,7 @@ export default function Home() {
     <div className={`${styles.container} font-font`}>
       <div className={styles.projectContainer}>
         <h1 className="text-[3vw] pl-3 font-light">Our Programs</h1>
+        <hr className="h-1 "/>
         {projects.map((project, index) => (
           <div
             key={index}
@@ -90,7 +91,7 @@ export default function Home() {
             onMouseLeave={(e) => manageMouseLeave(e, index)}
             onClick={() => handleProjectClick(project)}
           >
-            <p className="md:text-[4vw] text-[8vw]">{project.title}</p>
+            <p className="md:text-[2vw] text-[5vw] ">{project.title}</p>
           </div>
         ))}
       </div>

@@ -13,8 +13,7 @@ const ShuffleHero = () => {
           Visit MyLeadershipFarm.com
         </h3>
         <p className="text-base md:text-lg text-slate-700 my-4 md:my-6">
-          Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nam nobis in
-          error repellat voluptatibus ad.
+        Leadership Farm is LeadAfrique International’s learning platform to ENABLE, EMPOWER and EMBOLDEN you to live life on your own defined terms of success. 
         </p>
         <Link href="https://www.myleadershipfarm.com/" target="_blank">
           <button className="bg-purple-500 text-white font-medium py-2 px-4 rounded transition-all hover:bg-purple-600 active:scale-95">

@@ -40,7 +40,7 @@ const Future = () => {
       </Head>
       <motion.div className="progress-bar" style={{ scaleX }} />
 
-      <Menu />
+      
       <Gyla />
       {showScrollTop && (
         <button

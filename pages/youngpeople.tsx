@@ -36,7 +36,7 @@ function Youngpeople() {
         <title>Leadafrique International</title>
       </Head>
       <motion.div className="progress-bar" style={{ scaleX }} />
-      <Navbar2 />
+     
       <Young />
       {showScrollTop && (
         <button

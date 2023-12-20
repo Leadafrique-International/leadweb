@@ -11,10 +11,11 @@
 }
 
 .projectContainer div {
-  border-top: 1px solid black;
+  
+  border-bottom: 1px solid black;
   cursor: pointer;
   position: relative;
-  margin-bottom: -1vw;
+  margin-bottom: 1vw;
   background-color: white;
 }
 

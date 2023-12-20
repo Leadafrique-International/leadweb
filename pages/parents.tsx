@@ -38,8 +38,7 @@ function Parents() {
         <title>Leadafrique International</title>
       </Head>
       <motion.div className="progress-bar" style={{ scaleX }} />
-      <Navbar2 />
-      <Menu />
+      
       <Pareents />
       {showScrollTop && (
         <button
