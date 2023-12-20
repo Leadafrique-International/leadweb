@@ -8,8 +8,8 @@ export default function ComingSoon() {
       </Head>
 
       <div className="text-center">
-        <h1 className="text-6xl font-bold text-white">Coming Soon</h1>
-        <p className="text-xl text-white mt-4">
+        <h1 className="lg:text-6xl text-4xl font-bold text-white">Coming Soon</h1>
+        <p className="lg:text-xl text-[15px] text-white mt-4">
           You can browse our other programs, Thank you.
         </p>
 
