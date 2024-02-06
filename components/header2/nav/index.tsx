@@ -73,7 +73,7 @@ export default function Index() {
           <hr />
           <Link href="/quiz">
             <div className="flex items-center gap-1 pt-2">
-              <h1 className="md:text-xl text-sm hover:underline duration-150">
+              <h1 className=" text-sm hover:underline duration-150">
                 Take an Intelligence Type Test
               </h1>
               <FiArrowUpRight className="text-xl" />
@@ -81,7 +81,7 @@ export default function Index() {
           </Link>
           <Link href="/careerpathway">
             <div className="flex items-center gap-1 pb-1">
-              <h1 className="md:text-xl text-sm hover:underline duration-150">
+              <h1 className=" text-sm hover:underline duration-150">
                 Take a Career Path Test
               </h1>
               <FiArrowUpRight className="text-xl" />
@@ -89,7 +89,7 @@ export default function Index() {
           </Link>
           <Link href="/ImpactReport">
             <div className="flex items-center gap-1 pb-3">
-              <h1 className="md:text-xl text-sm hover:underline duration-150">
+              <h1 className=" text-sm hover:underline duration-150">
                 Download Our latest Impact Report
               </h1>
               <FiArrowUpRight className="text-xl" />
