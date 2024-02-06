@@ -74,16 +74,7 @@ export const Team = [
     details3:
       "Letitia is the author of the Sima series. Letitia enables and empowers you to live your best life and translate your dreams to reality. Engage her.",
   },
-  {
-    name: "Douglas Kwabena Frimpong Darkwa",
-    image:
-      "https://res.cloudinary.com/dpbuwo8ha/image/upload/v1680691901/IMG_8237_dt6btv.jpg",
-    position: "Project Officer, Youth Development Programmes",
-    details:
-      "Douglas leads the youth development and social intervention team at LeadAfrique, and provides support for all youth development initiatives.",
-    details2:
-      "He is an experienced Program Officer with a demonstrated history of working in the non-profit organization management industry. Skilled in Non-profit Organizations, Research, Event Planning, and Microsoft Suite. Strong professional with a Bachelor of Science (B.Sc.) focused in Mining and Mineral Engineering from university of mines and technology. ",
-  },
+ 
   {
     name: "Ebenezer Ashie ",
     image:

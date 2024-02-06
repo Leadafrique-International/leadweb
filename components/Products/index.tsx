@@ -43,7 +43,7 @@ const projects: Project[] = [
     link: "/educators",
   },
   {
-    title: "Corp. Executives",
+    title: "Corporate Executives",
     color: "#F0BA18",
     link: "/corporate",
   },
