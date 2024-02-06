@@ -123,20 +123,38 @@ const Future = () => {
       </div> */}
 
       <div className="max-w-7xl mx-auto text-center pt-20 px-10">
-        <h1 className="md:text-4xl text-2xl text-white">
-          Download Our Impact Report below
+        <h1 className="md:text-2xl text-xl text-white">
+          Download any of our Impact Report below
         </h1>
-        <Link
+        <div className="flex flex-col lg:flex-row items-center mb-10 justify-center gap-5"> 
+          <Link
           href="/IMPACT REPORT_final edits.pdf"
           download="/IMPACT REPORT_final edits.pdf"
           target="_blank"
         >
-          <div className="py-[200px] flex justify-center ">
-            <h1 className="md:text-4xl text-2xl bg-purple-400 p-5 rounded-xl w-[400px]">
-              Click here
+          
+          <div className=" bg-white p-5 mt-10  flex justify-center items-center flex-col ">
+          <Image src="/report.jpg" width={100} height={100} alt=""/>
+            <h1 className="text-sm w-[300px] text-white p-5 rounded-lg bg-purple-400 ">
+              2022 Impact Report
             </h1>
           </div>
         </Link>
+        <Link
+          href="/LAI Impact Report 2023.pdf"
+          download="/LAI Impact Report 2023.pdf"
+          target="_blank"
+        >
+          
+          <div className=" bg-white p-5 mt-10 flex justify-center items-center flex-col ">
+          <Image src="/report.jpg" width={100} height={100} alt=""/>
+            <h1 className="text-sm w-[300px] text-white p-5 rounded-lg bg-purple-400 ">
+              2023 Impact Report
+            </h1>
+          </div>
+        </Link>
+        </div>
+       
       </div>
       <Footer />
     </div>
