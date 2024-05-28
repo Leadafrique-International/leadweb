@@ -124,7 +124,7 @@ function Footer() {
       </div>
       <div className="flex md:flex-row flex-col font-font justify-between px-10 pt-10">
         <div>
-          <h1 className="text-white text-[16px]">Leadafrique@2023</h1>{" "}
+          <h1 className="text-white text-[16px]">Leadafrique@2024</h1>{" "}
         </div>
         <div className="flex space-x-3 items-center pt-10 md:pt-0 text-white font-font flex-wrap">
           <h1 className="text-purple-500">Follow Us |</h1>
