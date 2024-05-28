@@ -25,7 +25,7 @@ const navItems = [
   },
   {
     title: "Blog",
-    href: "https://leadafriueblog.vercel.app/",
+    href: "https://leadafriqueblog.vercel.app/",
   },
   {
     title: "Contact",
