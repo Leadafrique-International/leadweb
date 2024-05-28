@@ -5,7 +5,7 @@ import Preloader from "../components/Preloader";
 import Footer from "@/components/Footer";
 import React, { useState, useEffect } from "react";
 import Hero2 from "@/components/Hero";
-import Header from "@/components/Header";
+import Header from "@/components/Headers";
 import Header2 from "@/components/header2";
 import Wedo from "@/components/Wedo";
 import What2 from "../components/What2";
@@ -14,25 +14,24 @@ import Test from "@/components/Test";
 import Platform from "@/components/Platform";
 import YouTube2 from "@/components/Youtube2";
 
-
 export default function Home() {
   const [isLoading, setIsLoading] = useState(true);
   const [isHeroVisible, setIsHeroVisible] = useState(false);
 
-  useEffect(() => {
-    const delayHero = async () => {
-      // Simulate some loading time
-      await new Promise((resolve) => setTimeout(resolve, 2000));
+  // useEffect(() => {
+  //   const delayHero = async () => {
+  //     // Simulate some loading time
+  //     await new Promise((resolve) => setTimeout(resolve, 2000));
 
-      // Set isLoading to false to hide the preloader
-      setIsLoading(false);
+  //     // Set isLoading to false to hide the preloader
+  //     setIsLoading(false);
 
-      // Set isHeroVisible to true to allow the Hero component to mount
-      setIsHeroVisible(true);
-    };
+  //     // Set isHeroVisible to true to allow the Hero component to mount
+  //     setIsHeroVisible(true);
+  //   };
 
-    delayHero();
-  }, []);
+  //   delayHero();
+  // }, []);
 
   return (
     <div>
@@ -43,9 +42,9 @@ export default function Home() {
         <link rel="icon" href="/favicon.ico" />
       </Head>
 
-      <AnimatePresence>{isLoading && <Preloader />}</AnimatePresence>
+      {/* <AnimatePresence>{isLoading && <Preloader />}</AnimatePresence> */}
 
-      {isHeroVisible && <Hero2 />}
+      <Header />
 
       <div className="bg8">
         <What2 />
