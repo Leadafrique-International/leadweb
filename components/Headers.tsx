@@ -80,7 +80,7 @@ export default function Header({}: Props) {
                 width={1000}
                 height={1000}
                 alt=""
-                className="md:w-[370px] md:h-[370px] w-[250px] h-[250px]"
+                className="md:w-[390px] md:h-[390px] w-[300px] h-[300px]"
               />
               <Link href="https://forms.gle/zuD2kvJ7i9egPu1VA" target="_blank">
                 <h1
