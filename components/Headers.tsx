@@ -84,7 +84,7 @@ export default function Header({}: Props) {
               />
               <Link href="https://donate.changoapp.com/campaign/637760c1d8ab4" target="_blank">
                 <h1
-                  className="text-white text-3xl hover:border border-white w-[300px] text-center mt-5 p-3 cursor-pointer font-bold bg-[rgba(124,62,146)] "
+                  className="text-white text-2xl md:text-3xl hover:border border-white w-[250px] md:w-[300px] text-center mt-5 p-3 cursor-pointer font-bold bg-[rgba(124,62,146)] "
                   onClick={handleCancelClick}
                 >
                   Donate now
