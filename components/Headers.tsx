@@ -76,18 +76,18 @@ export default function Header({}: Props) {
                 CANCEL
               </h1>
               <Image
-                src="/camp.jpg"
+                src="/g4c.jpeg"
                 width={1000}
                 height={1000}
                 alt=""
                 className="md:w-[390px] md:h-[390px] w-[300px] h-[300px]"
               />
-              <Link href="https://forms.gle/zuD2kvJ7i9egPu1VA" target="_blank">
+              <Link href="https://donate.changoapp.com/campaign/637760c1d8ab4" target="_blank">
                 <h1
                   className="text-white text-3xl hover:border border-white w-[300px] text-center mt-5 p-3 cursor-pointer font-bold bg-[rgba(124,62,146)] "
                   onClick={handleCancelClick}
                 >
-                  Register Now
+                  Donate now
                 </h1>
               </Link>
             </div>
