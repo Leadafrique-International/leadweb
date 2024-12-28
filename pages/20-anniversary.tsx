@@ -12,7 +12,7 @@ const ProgramDownload = () => {
       
       // Create download link
       const link = document.createElement('a');
-      link.href = '/program.pdf'; // Adjust this path to your PDF location
+      link.href = '/20th Anniversary Program Outline (1).pdf'; // Adjust this path to your PDF location
       link.download = '20th_Anniversary_Program.pdf';
       document.body.appendChild(link);
       link.click();
